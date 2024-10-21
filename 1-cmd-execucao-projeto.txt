@@ -1,8 +1,8 @@
 # Instalação e Configuração do Cluster Spark
 
-# Abra o terminal ou prompt de comando na pasta onde estão os arquivos computador e execute:
+# Abrir o cmd no diretório onde estão os arquivos e executar:
 
-# Execute o comando abaixo para criar e inicializar o Cluster na pasta escolhida anteriormente
+# Criar e inicializar o Cluster
 docker-compose -f docker-compose.yml up -d --scale spark-worker=2
 
 # Spark Master
